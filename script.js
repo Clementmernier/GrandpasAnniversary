@@ -24,11 +24,11 @@ const CONFIG = {
   finalMessage: `
     <h2>Félicitations ! 🎉</h2>
     <p>
-      <strong>Votre message final arrive ici.</strong>
+      <strong>Vous l'aurez deviné, c'était les trois petits messages de Clément !</strong>
     </p>
     <p>
-      Remplacez ce texte dans <code>script.js</code> par le message
-      que vous souhaitez leur faire découvrir.
+      Je vous fais un énorme bisou ! Vous êtes les meilleurs grands parents et vous allez bien me manquer pendant ces 6 mois au Vietnam !
+      Je vous dit "à la revoyure !" qui sera probablement pendant les vacances de Toussaint !
     </p>
   `,
 
