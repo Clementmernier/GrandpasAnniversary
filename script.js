@@ -13,7 +13,7 @@
 const CONFIG = {
   answers: {
     1: ["MERNIER"],
-    2: ["MAISON"],
+    2: ["189 RUE DE COQUELET"],
     3: ["Clément"]
   },
 
