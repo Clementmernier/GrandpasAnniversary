@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#7c3aed">
+  <meta name="description" content="Une petite surprise pour un anniversaire très spécial.">
+  <title>60 ans ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <section class="card" aria-labelledby="title">
+      <div class="heart" aria-hidden="true">♥</div>
+
+      <p class="eyebrow">Une petite surprise...</p>
+      <h1 id="title">60 ans de souvenirs ❤️</h1>
+      <p class="intro">
+        Trois énigmes vous attendent.<br>
+        Trouvez les trois réponses pour découvrir le message final.
+      </p>
+
+      <div class="progress" aria-label="Progression">
+        <div class="progress-item" id="progress-1">
+          <span>1</span>
+        </div>
+        <div class="progress-line"></div>
+        <div class="progress-item" id="progress-2">
+          <span>2</span>
+        </div>
+        <div class="progress-line"></div>
+        <div class="progress-item" id="progress-3">
+          <span>3</span>
+        </div>
+      </div>
+
+      <div class="enigmas">
+        <div class="answer-box" id="box-1">
+          <label for="answer-1">Réponse à l'énigme n°1</label>
+          <div class="input-row">
+            <input
+              id="answer-1"
+              type="text"
+              autocomplete="off"
+              autocapitalize="none"
+              placeholder="Votre réponse..."
+              aria-describedby="feedback-1"
+            >
+            <button type="button" data-id="1">Valider</button>
+          </div>
+          <p class="feedback" id="feedback-1" role="status" aria-live="polite"></p>
+        </div>
+
+        <div class="answer-box" id="box-2">
+          <label for="answer-2">Réponse à l'énigme n°2</label>
+          <div class="input-row">
+            <input
+              id="answer-2"
+              type="text"
+              autocomplete="off"
+              autocapitalize="none"
+              placeholder="Votre réponse..."
+              aria-describedby="feedback-2"
+            >
+            <button type="button" data-id="2">Valider</button>
+          </div>
+          <p class="feedback" id="feedback-2" role="status" aria-live="polite"></p>
+        </div>
+
+        <div class="answer-box" id="box-3">
+          <label for="answer-3">Réponse à l'énigme n°3</label>
+          <div class="input-row">
+            <input
+              id="answer-3"
+              type="text"
+              autocomplete="off"
+              autocapitalize="none"
+              placeholder="Votre réponse..."
+              aria-describedby="feedback-3"
+            >
+            <button type="button" data-id="3">Valider</button>
+          </div>
+          <p class="feedback" id="feedback-3" role="status" aria-live="polite"></p>
+        </div>
+      </div>
+
+      <section id="final-message" class="final-message" hidden aria-live="polite">
+        <div class="final-icon">🎉</div>
+        <p class="eyebrow">Vous avez tout trouvé !</p>
+        <div id="final-content">
+          <!-- Le message final est configuré dans script.js -->
+        </div>
+      </section>
+
+      <p class="footer-note">Avec tout notre amour ♥</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
